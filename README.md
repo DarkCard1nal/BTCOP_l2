@@ -81,7 +81,25 @@ _Each class file contains a test function `testBlockchain()`_
 [Running] python -u "Blockchain.py"
 Blockchain with 2 blocks.
 Last Block: Block
-Version: 1.0, PreviousBlockHash: 34bcbe2a317dc7a4b317c2401c47ffaea53036aeb9a2ce3889b2af9268299541, Timestamp: 2024-10-11 23:52:08.321724, DificultyTarget: 486604799, Nonce: 1508784432, MerkleRoot: 43e4fc6bd2df5b7a77fbfa317d0fe802788bd7cf651277dfcc4e92512a5e4c13, Hash: 658905e8064a1e8eee9317088d5eea3f62a65b2e81245670047ca8c4182e1f7e, Signature: {"publicKey": "0+dMy5mzdylLczGAhHp/JQEsmZwP/uNk97WvDKcoMvsDJcxNWK4ESq0FU0BFGU8cbgeTPsjEEBPC1kOh6OQotg==", "signature": "H3oyxhRUVCH3n7YLCJ18znFzXvV5WB8ioVE7+MQMLKfC/mVFQ/WhtQegq3OTunj9DTbQM8UeBgJNN9KJjIKhEQ==", "message": "Block\nVersion: 1.0, PreviousBlockHash: 34bcbe2a317dc7a4b317c2401c47ffaea53036aeb9a2ce3889b2af9268299541, Timestamp: 2024-10-11 23:52:08.321724, DificultyTarget: 486604799, Nonce: 1508784432, MerkleRoot: 43e4fc6bd2df5b7a77fbfa317d0fe802788bd7cf651277dfcc4e92512a5e4c13, Hash: 658905e8064a1e8eee9317088d5eea3f62a65b2e81245670047ca8c4182e1f7e", "algorithm": "SHA256withECDSA"}
+Version: 1.0,
+PreviousBlockHash: 34bcbe2a317dc7a4b317c2401c47ffaea53036aeb9a2ce3889b2af9268299541,
+Timestamp: 2024-10-11 23:52:08.321724,
+DificultyTarget: 486604799,
+Nonce: 1508784432,
+MerkleRoot: 43e4fc6bd2df5b7a77fbfa317d0fe802788bd7cf651277dfcc4e92512a5e4c13,
+Hash: 658905e8064a1e8eee9317088d5eea3f62a65b2e81245670047ca8c4182e1f7e,
+Signature: {
+"publicKey": "0+dMy5mzdylLczGAhHp/JQEsmZwP/uNk97WvDKcoMvsDJcxNWK4ESq0FU0BFGU8cbgeTPsjEEBPC1kOh6OQotg==",
+"signature": "H3oyxhRUVCH3n7YLCJ18znFzXvV5WB8ioVE7+MQMLKfC/mVFQ/WhtQegq3OTunj9DTbQM8UeBgJNN9KJjIKhEQ==",
+"message": "Block\nVersion: 1.0,
+PreviousBlockHash: 34bcbe2a317dc7a4b317c2401c47ffaea53036aeb9a2ce3889b2af9268299541,
+Timestamp: 2024-10-11 23:52:08.321724,
+DificultyTarget: 486604799,
+Nonce: 1508784432,
+MerkleRoot: 43e4fc6bd2df5b7a77fbfa317d0fe802788bd7cf651277dfcc4e92512a5e4c13,
+Hash: 658905e8064a1e8eee9317088d5eea3f62a65b2e81245670047ca8c4182e1f7e",
+"algorithm": "SHA256withECDSA"
+}
 All blockchain tests passed!
 
 [Done] exited with code=0 in 0.167 seconds
