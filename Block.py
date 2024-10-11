@@ -131,10 +131,9 @@ class Block:
 
 	def StrNoSignatureAndHash(self):
 		return (
-		    f"Block\nVersion: {self.__version}, PrevHash: {self.__prevHash}, "
-		    f"Timestamp: {self.__timestamp}, Target: {self.__target}, "
-		    f"Nonce: {self._nonce}, Transactions: {self.__transactions}, "
-		    f"MerkleRoot: {self.__merkleRoot}")
+		    f"Block\nVersion: {self.__version}, PreviousBlockHash: {self.__prevHash}, "
+		    f"Timestamp: {self.__timestamp}, DificultyTarget: {self.__target}, "
+		    f"Nonce: {self._nonce}, MerkleRoot: {self.__merkleRoot}")
 
 
 def testBlock():
