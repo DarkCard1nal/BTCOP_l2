@@ -83,12 +83,12 @@ class Transaction:
 
 	def StrNoSignatureAndHash(self):
 		return (
-		    f"Transaction(input: {self.__input}, outputs: {self.__outputs}, "
-		    f"Total amount: {self.GetTotalAmount()}, Timestamp: {self.__txTimestamp}"
+		    f"Transaction\nInput: {self.__input}, Outputs: {self.__outputs}, "
+		    f"TotalAmount: {self.GetTotalAmount()}, Timestamp: {self.__txTimestamp}"
 		)
 
 
-def test_transaction():
+def testTransaction():
 	privateKey = SigningKey.generate(curve=NIST256p)
 
 	tx = Transaction("1SenderAddress", {
@@ -128,4 +128,5 @@ def test_transaction():
 	print("\nAll tests passed.")
 
 
-test_transaction()
+if __name__ == "__main__":
+	testTransaction()
